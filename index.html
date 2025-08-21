@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom, #1c1c1c, #333333);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header {
+      background-color: #222;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 15px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80%;
+      text-align: center;
+    }
+
+    .main-content h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .main-content p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <h1>Welcome to Our Simple Website</h1>
+    <p>
+      This is a basic static webpage with a minimal design. It features a dark gradient background, a navbar at the top, and a centered title with a paragraph underneath. You can customize this template to fit your needs.
+    </p>
+  </div>
+
+</body>
+</html>
